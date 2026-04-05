@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Serena Hayes | Clinical Psychologist</title>
+<title>Shivangi Rajput | Paglo Ki Doctor</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -110,7 +110,7 @@
   .booking-perks { display: flex; flex-direction: column; gap: 20px; margin-top: 40px; }
   .perk { display: flex; align-items: center; gap: 14px; font-size: 14px; color: var(--taupe); }
   .perk-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--sage); flex-shrink: 0; }
-  .telegram-note { display: inline-flex; align-items: center; gap: 8px; background: rgba(0,136,204,0.1); color: #0088cc; border: 1px solid rgba(0,136,204,0.2); padding: 8px 14px; border-radius: 20px; font-size: 12px; margin-top: 16px; }
+  /* .telegram-note { display: inline-flex; align-items: center; gap: 8px; background: rgba(0,136,204,0.1); color: #0088cc; border: 1px solid rgba(0,136,204,0.2); padding: 8px 14px; border-radius: 20px; font-size: 12px; margin-top: 16px; } */
 
   .form-card { background: var(--cream); border-radius: 8px; padding: 48px; box-shadow: 0 20px 80px rgba(0,0,0,0.07); position: relative; }
   .form-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--sage), var(--gold)); border-radius: 8px 8px 0 0; }
@@ -150,7 +150,7 @@
   .notif-close { padding: 12px 32px; background: var(--sage); color: white; border: none; border-radius: 4px; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; transition: background 0.3s; }
   .notif-close:hover { background: var(--sage-dark); }
 
-  /* Telegram Setup Panel */
+  /* Telegram Setup Panel
   .tg-setup { position: fixed; bottom: 24px; right: 24px; z-index: 500; }
   .tg-btn { background: #0088cc; color: white; border: none; border-radius: 50px; padding: 12px 20px; font-size: 13px; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 20px rgba(0,136,204,0.35); transition: all 0.3s; font-family: 'DM Sans', sans-serif; }
   .tg-btn:hover { background: #0077b5; transform: translateY(-2px); }
@@ -160,7 +160,7 @@
   .tg-panel p { font-size: 12px; color: var(--taupe); margin-bottom: 16px; line-height: 1.5; }
   .tg-panel input { margin-bottom: 10px; font-size: 13px; padding: 10px 14px; }
   .tg-save { width: 100%; padding: 10px; background: #0088cc; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 13px; font-weight: 500; font-family: 'DM Sans', sans-serif; margin-top: 4px; }
-  .tg-steps { background: #f0f9ff; border-radius: 6px; padding: 12px; margin-top: 12px; font-size: 11px; color: #0088cc; line-height: 1.7; }
+  .tg-steps { background: #f0f9ff; border-radius: 6px; padding: 12px; margin-top: 12px; font-size: 11px; color: #0088cc; line-height: 1.7; } */
 
   footer { background: var(--charcoal); padding: 60px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; }
   .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 300; color: white; letter-spacing: 2px; }
@@ -198,7 +198,7 @@
 
 <!-- NAV -->
 <nav id="mainNav">
-  <a href="#" class="logo">Dr. Serena <span>Hayes</span></a>
+  <a href="#" class="logo">Shivangi <span>Rajput</span></a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#specialties">Specialties</a></li>
@@ -221,17 +221,19 @@
   <div class="hero-right">
     <div class="hero-photo-frame">
       <div class="photo-placeholder">
-        <svg class="person-svg" width="110" height="200" viewBox="0 0 110 200" fill="white">
+        <!-- <svg class="person-svg" width="110" height="200" viewBox="0 0 110 200" fill="white">
           <circle cx="55" cy="38" r="28"/>
           <ellipse cx="55" cy="130" rx="42" ry="55"/>
-        </svg>
-        <div class="photo-name">Dr. Serena Hayes</div>
-        <div class="photo-title">PhD · Clinical Psychology</div>
+        </svg> -->
+
+        <img src="dp.jpeg" alt="Shivangi">
+        <div class="photo-name">Shivangi Rajput</div>
+        <div class="photo-title">M.A. Psychology</div>
       </div>
     </div>
     <div class="hero-stats">
-      <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Years</span></div>
-      <div class="stat"><span class="stat-num">1,200+</span><span class="stat-label">Clients</span></div>
+      <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years</span></div>
+      <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Clients</span></div>
       <div class="stat"><span class="stat-num">96%</span><span class="stat-label">Satisfaction</span></div>
     </div>
   </div>
@@ -240,9 +242,9 @@
 <!-- ABOUT -->
 <section class="about" id="about">
   <div class="reveal">
-    <span class="section-label">About Dr. Hayes</span>
-    <h2 class="section-title">A <em>decade</em> of compassionate care</h2>
-    <p class="section-body">Dr. Serena Hayes is a licensed clinical psychologist with over 15 years of experience helping individuals, couples, and families navigate anxiety, depression, trauma, relationship issues, and life transitions.</p>
+    <span class="section-label">About Shivangi</span>
+    <h2 class="section-title"><em>Years</em> of compassionate care</h2>
+    <p class="section-body">I am a Counselling Psychologist dedicated to providing compassionate, client-centered care. I create a safe and nonjudgmental space where individuals can explore their thoughts and emotions, honoring their unique experiences and supporting their journey toward growth and well-being.</p>
     <blockquote class="about-quote">"Every person carries within them the capacity for growth. My role is to help you find that path."</blockquote>
     <div class="credentials">
       <div class="credential-item">
@@ -314,7 +316,7 @@
         <div class="perk"><div class="perk-dot"></div> Evening & weekend slots available</div>
         <div class="perk"><div class="perk-dot"></div> Most major insurance plans accepted</div>
       </div>
-      <div class="telegram-note">📱 Dr. Hayes receives instant Telegram notification when you submit</div>
+      <!-- <div class="telegram-note">📱 Dr. Hayes receives instant Telegram notification when you submit</div> -->
     </div>
 
     <div class="form-card reveal reveal-delay-1">
@@ -332,11 +334,11 @@
         <div class="form-row">
           <div class="form-group">
             <label for="firstName">First Name *</label>
-            <input type="text" id="firstName" placeholder="Aarav" required>
+            <input type="text" id="firstName" placeholder="Ayush" required>
           </div>
           <div class="form-group">
             <label for="lastName">Last Name *</label>
-            <input type="text" id="lastName" placeholder="Sharma" required>
+            <input type="text" id="lastName" placeholder="Paliwal" required>
           </div>
         </div>
         <div class="form-row">
@@ -369,7 +371,7 @@
           </div>
           <div class="form-group">
             <label for="phone">Phone Number *</label>
-            <input type="tel" id="phone" placeholder="+91 98765 43210" required>
+            <input type="tel" id="phone" placeholder="+91 82XXX XXXXX" required>
           </div>
         </div>
         <div class="form-group">
@@ -400,14 +402,14 @@
 
 <footer>
   <div>
-    <div class="footer-logo">Dr. Serena <span>Hayes</span></div>
+    <div class="footer-logo">Shivangi<span>Rajput</span></div>
     <div class="footer-text" style="margin-top:8px">Licensed Clinical Psychologist · PhD</div>
   </div>
-  <div class="footer-text">© 2026 Dr. Serena Hayes. All rights reserved.<br>Not a crisis service. In emergency call 112.</div>
+  <div class="footer-text">© 2026 TherapizeWithShivangi. All rights reserved.<br>Not a crisis service. In emergency call 112.</div>
   <div class="footer-links">
     <a href="#">Privacy</a>
-    <a href="#">HIPAA</a>
-    <a href="#">Contact</a>
+    <a href="https://www.hhs.gov/hipaa/index.html">HIPAA</a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shivangi10rajput@gmail.com&su=Query regarding therapy&body=Bachao bachaoooooo😱😱😱😱" target="_blank">Mail</a>   
   </div>
 </footer>
 
@@ -423,7 +425,7 @@
 </div>
 
 <!-- TELEGRAM SETUP -->
-<div class="tg-setup">
+<!-- <div class="tg-setup">
   <div class="tg-panel" id="tgPanel">
     <h4>📱 Telegram Notifications</h4>
     <p>Receive instant notifications when someone books a session. Setup takes 2 minutes.</p>
@@ -441,7 +443,7 @@
     </div>
   </div>
   <button class="tg-btn" onclick="toggleTgPanel()">📱 Setup Telegram Alerts</button>
-</div>
+</div> -->
 
 <script>
 // Cursor
